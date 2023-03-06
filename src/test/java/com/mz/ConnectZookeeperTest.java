@@ -13,7 +13,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 
-public class ConnectZookeeper {
+public class ConnectZookeeperTest {
 
     Log log = LogFactory.get();
     ZooKeeper zooKeeper;
