@@ -19,7 +19,7 @@ import static com.mz.services.constant.ZookeeperConstant.ZOOKEEPER_TIME_OUT;
 public class DistributedLock {
 
     public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
-        ZooKeeper zooKeeper = new ZooKeeper(ZookeeperConstant.ZOOKEEPER_URL, ZOOKEEPER_TIME_OUT, new Watcher() {
+        ZooKeeper zooKeeper = new ZooKeeper(ZookeeperConstant.ZOOKEEPER_URL_MAC, ZOOKEEPER_TIME_OUT, new Watcher() {
             @Override
             public void process(WatchedEvent event) {
 
